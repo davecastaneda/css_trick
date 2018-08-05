@@ -19,6 +19,7 @@ button {
     background-color: #fffde3;
     width: 30%;
     opacity: 0;
+    transition: opacity 200ms ease-out;
 }
 
 
