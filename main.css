@@ -12,3 +12,10 @@ input {
 button {
     font-size: 2em;
 }
+
+.msg {
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #fffde3;
+    width: 30%;
+}
