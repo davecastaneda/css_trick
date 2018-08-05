@@ -28,10 +28,9 @@ button {
     border: 5px solid blue;
 } */
 
-
-/* input:placeholder-shown {
+input:placeholder-shown {
     border: 5px solid green;
-} */
+}
 
 input:not(:placeholder-shown)+.msg {
     opacity: 1;
