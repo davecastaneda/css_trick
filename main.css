@@ -18,4 +18,20 @@ button {
     margin: 1em 0;
     background-color: #fffde3;
     width: 30%;
+    opacity: 0;
+}
+
+
+/* body :not(p) {
+    color: red;
+    border: 5px solid blue;
+} */
+
+
+/* input:placeholder-shown {
+    border: 5px solid green;
+} */
+
+input:not(:placeholder-shown)+.msg {
+    opacity: 1;
 }
