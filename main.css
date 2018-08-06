@@ -22,6 +22,10 @@ button {
     transition: opacity 200ms ease-out;
 }
 
+section {
+    padding: 10px;
+}
+
 
 /* body :not(p) {
     color: red;
