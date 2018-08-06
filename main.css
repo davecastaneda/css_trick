@@ -26,16 +26,21 @@ section {
     padding: 10px;
 }
 
+h1 {
+    color: whitesmoke;
+    background-color: black;
+}
+
 
 /* body :not(p) {
-    color: red;
+    color: blue;
     border: 5px solid blue;
 } */
 
-input:placeholder-shown {
+input {
     border: 5px solid green;
 }
 
-input:not(:placeholder-shown)+.msg {
+input:not(:placeholder2-shown)+.msg {
     opacity: 1;
 }
